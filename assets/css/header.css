@@ -1,0 +1,25 @@
+.topheader {
+    background-color: var(--mid-color);
+    display: flex;
+    justify-content: space-around;
+    gap: 20em;
+    
+}
+
+.logoes {
+    color: var(--light-color);
+    font-size: xx-large;
+
+}
+
+.secondheader {
+    background-color: var(--brand-color);
+}
+
+.secondheader,
+p {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    font-size: x-large;
+}

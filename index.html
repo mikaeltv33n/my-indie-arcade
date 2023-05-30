@@ -19,18 +19,62 @@
         <i class="logoes fa-solid fa-car-rear"></i>
     </header>
     <header class="secondheader">
-        <p>Rally</p>
-        <p>2wheels</p>
-        <p>Street race</p>
+        <a href="">Road Race</a>
+        <a href="">2wheels</a>
+        <a href="">Street race</a>
     </header>
     <main>
         <section>
-            <img src="assets/pics/bike-vs-car.jpg" alt="" srcset="">
+            <img class="racepics" src="assets/pics/bike-vs-car.jpg" alt="">
         </section>
         <section>
-            <img src="" alt="">
+            <img class="racepics__mc" src="assets/pics/mc-race.webp" alt="">
         </section>
+        <article>
+            <div class="box">
+                <p class="box__textLeft">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor dolorem quos
+                    culpa magni ex laborum nisi
+                    numquam totam, quisquam nihil amet ullam asperiores a, perspiciatis accusantium nobis molestiae
+                    reiciendis sequi.</p>
+                <p class="box__textRight">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, molestiae ducimus facilis deserunt,
+                    exercitationem tempora illo libero error, architecto iste dolore! Consectetur veniam numquam commodi
+                    voluptatibus. Eaque tempora voluptates veniam?</p>
+            </div>
+        </article>
         <main>
+            <footer class="footer">
+                <form class="footer__form" action="./tak.html" novalidate>
+                    <div class="form__field">
+                        <label class="inputField__label" for="inputName">Name</label>
+                        <input id="inputName" class="form__input" type="text" name="navn" required placeholder="Full Name ">
+                        <span class="form__message"></span>
+                    </div>
+                    <div class="form__field">
+                        <label class="inputField__label" for="inputEmail">Email</label>
+                        <input id="inputEmail" class="form__input" type="email" name="email" required placeholder="Email">
+                        <span class="form__message"></span>
+                    </div>
+                    <div class="form__field">
+                        <label class="inputField__label" for="inputNumber">Number</label>
+                        <input id="inputNumber" class="form__input" type="number" name="nummer" required placeholder="Phone no">
+                        <span class="form__message"></span>
+                    </div>
+                </form>
+                <div class="form__field_textbox">
+                    <label class="inputField__label" for="inputfield__text">Comment</label>
+                    <textarea class="inputfield__text" placeholder="Optionally" name="message" id="" cols="60" rows="4"></textarea>
+                    <span class="form__message"></span>
+                    <input class="submit" type="submit" value="send" required>
+                </div>
+    
+                <section class="section__footer">
+                    <h4>Mikael's indie arcade.</h4>
+                    <p class="section__footer-p">Copyright by Roskilde technical school. Pulsen 8. 4000 Roskilde.
+                    All Rights Reserved.</p>
+                </section>
+            </footer>  
+
+            <script src="closure.js"></script>
 </body>
 
 </html>

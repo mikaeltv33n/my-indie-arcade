@@ -1,0 +1,36 @@
+.footer {
+    min-height: 34vh;
+    background-color: var(--brand-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.footer__form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__field_textbox {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.submit {
+    display: flex;
+    font-size: small;
+
+}
+
+
+.section__footer,
+h4,
+.section__footer-p {
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+
+}

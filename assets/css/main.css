@@ -1,0 +1,32 @@
+.racepics {
+    width: 100%;
+    margin: auto;
+}
+
+.racepics__mc {
+    display: -webkit-box;
+    width: 50%;
+
+}
+
+
+.box {
+    display: flex;
+    background-color: var(--mid-color);
+    color: white;
+}
+
+
+.box__textLeft {
+    padding:30px ;
+    text-align: center;
+    width: 50%;
+
+}
+
+
+.box__textRight {
+    padding: 30px;
+    text-align: center;
+    width: 50%;
+}

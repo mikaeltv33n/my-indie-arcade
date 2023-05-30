@@ -1,6 +1,9 @@
 .racepics {
-    width: 100%;
+    display: block;
     margin: auto;
+    height: 100%;
+    width: 100%;
+
 }
 
 .racepics__mc {
@@ -9,19 +12,38 @@
 
 }
 
+.thankyou__name{
+    margin: 3px;
+}
+
+h1{
+    font-size: xx-large;
+}
 
 .box {
     display: flex;
     background-color: var(--mid-color);
     color: white;
+    gap: 5rem;
 }
 
 
+p {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+
+
+
 .box__textLeft {
-    padding:30px ;
+    padding: 30px;
     text-align: center;
     width: 50%;
-
+    letter-spacing: 4px;
+    line-height: 40px;
+    font-size: medium;
 }
 
 
@@ -29,4 +51,7 @@
     padding: 30px;
     text-align: center;
     width: 50%;
+    letter-spacing: 4px;
+    line-height: 40px;
+    font-size: medium;
 }

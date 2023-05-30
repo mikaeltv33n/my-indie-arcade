@@ -1,9 +1,13 @@
-.topheader {
+ .topheader {
     background-color: var(--mid-color);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; 
     gap: 20em;
-    
+
+} 
+
+.topheader a{
+    background: none;
 }
 
 .logoes {
@@ -12,14 +16,38 @@
 
 }
 
-.secondheader {
-    background-color: var(--brand-color);
-}
-
 .secondheader,
-p {
+a {
+    background-color: var(--brand-color);
     display: flex;
     justify-content: center;
     gap: 2em;
     font-size: x-large;
+    text-decoration: none;
+    color: var(--light-color);
+}
+
+
+
+
+a:hover {
+color: var(--mid-color);
+transition: 500ms; 
+
+}
+
+@media screen and (max-width: 600px) {
+    .topheader {
+        display: flex;
+       justify-content: center;
+        background-color: var(--mid-color);
+        gap: 10em;
+}
+
+    .logoes {
+        
+        color: var(--light-color);
+        font-size: xx-large;
+    
+    }
 }

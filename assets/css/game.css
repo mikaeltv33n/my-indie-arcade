@@ -1,0 +1,40 @@
+
+
+
+.game-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.game-container iframe {
+    border: none;
+    height: 530px;
+}
+
+
+.game-description{
+    margin-top: -2px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: var(--brand-color);
+    
+}
+
+.game-description>div{
+    padding: 24px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    width: 960px;
+
+}
+.game-description p{
+font-size: large;
+
+
+} 
+

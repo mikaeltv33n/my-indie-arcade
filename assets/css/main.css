@@ -63,7 +63,7 @@ p {
 
 @media screen and (max-width: 768px) {
     .racepics{
-        display: flex;
+        display: block;
         
     }
 
@@ -72,10 +72,17 @@ p {
     }
 
     .box__textLeft{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        text-align: center;
         
     }
     .box__textRight{
-        
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        text-align: center;
         
     }
 

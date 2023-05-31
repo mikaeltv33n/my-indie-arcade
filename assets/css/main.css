@@ -1,6 +1,6 @@
-body{
+ body{
 background-color: var(--dark-color);
-}
+} 
 
 .racepics {
     display: block; 
@@ -64,6 +64,18 @@ p {
 @media screen and (max-width: 768px) {
     .racepics{
         display: flex;
+        
+    }
+
+    .box{
+       
+    }
+
+    .box__textLeft{
+        
+    }
+    .box__textRight{
+        
         
     }
 

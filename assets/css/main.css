@@ -1,90 +1,87 @@
- body{
-background-color: var(--dark-color);
-} 
+ body {
+     background-color: var(--dark-color);
+ }
 
-.racepics {
-    display: block; 
-    margin: auto;
-    height: 100%;
-    width: 100%;
+ .racepics {
+     display: block;
+     margin: auto;
+     height: 100%;
+     width: 100%;
 
-}
+ }
 
-.racepics__mc {
-    display: -webkit-box;
-    width: 50%;
+ .racepics__mc {
+     display: -webkit-box;
+     width: 50%;
 
-}
+ }
 
-.thankyou__name{
-    margin: 3px;
-}
+ .section__top{
+    color: var(--light-color);
+ }
 
-h1{
-    font-size: xx-large;
-}
+ .thankyou__name {
+     margin: 3px;
+ }
 
-.box {
-    display: flex;
-    background-color: var(--light-color);
-    color: var(--dark-color);
-    gap: 5rem;
-}
+ h1 {
+     font-size: xx-large;
+ }
 
-
-p {
-    display: flex;
-    justify-content: center;
-    font-size: x-large;
-}
+ .box {
+     display: flex;
+     background-color: var(--light-color);
+     color: var(--dark-color);
+     gap: 5rem;
+ }
 
 
+ p {
+     display: flex;
+     justify-content: center;
+     font-size: x-large;
+    
+
+ }
 
 
-.box__textLeft {
-    padding: 30px;
-    text-align: center;
-    width: 50%;
-    letter-spacing: 4px;
-    line-height: 40px;
-    font-size: medium;
-}
 
 
-.box__textRight {
-    padding: 30px;
-    text-align: center;
-    width: 50%;
-    letter-spacing: 4px;
-    line-height: 40px;
-    font-size: medium;
-}
+ .box__textLeft {
+     padding: 30px;
+     text-align: center;
+     width: 50%;
+     letter-spacing: 2px;
+     line-height: 30px;
+     font-size: medium;
+ }
 
 
-@media screen and (max-width: 768px) {
-    .racepics{
-        display: block;
-        
-    }
+ .box__textRight {
+     padding: 30px;
+     text-align: center;
+     width: 50%;
+     letter-spacing: 2px;
+     line-height: 30px;
+     font-size: medium;
+ }
+
+
+ @media screen and (max-width: 768px) {
+
 
     .box{
-       
-    }
-
-    .box__textLeft{
-        display: flex;
         flex-direction: column;
-        width: 30%;
-        text-align: center;
-        
     }
-    .box__textRight{
-        display: flex;
-        flex-direction: column;
-        width: 30%;
-        text-align: center;
-        
+    
+
+     .box__textLeft {
+        width: 100%;
+    }
+
+     .box__textRight {
+        width: 100%;
     }
 
 
-}
+ }

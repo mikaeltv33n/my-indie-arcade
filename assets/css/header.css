@@ -1,53 +1,117 @@
  .topheader {
-    background-color: var(--mid-color);
-    display: flex;
-    justify-content: space-around; 
-    gap: 20em;
+     background-color: var(--mid-color);
+     display: flex;
+     justify-content: space-around;
+     gap: 20em;
 
-} 
+ }
 
-.topheader a{
-    background: none;
-}
+ .topheader a {
+     background: none;
+ }
 
-.logoes {
-    color: var(--light-color);
-    font-size: xx-large;
+ .logoes {
+     color: var(--light-color);
+     font-size: xx-large;
 
-}
+ }
 
-.secondheader,
-a {
-    background-color: var(--brand-color);
-    display: flex;
-    justify-content: center;
-    gap: 2em;
-    font-size: x-large;
-    text-decoration: none;
-    color: var(--light-color);
-}
+ .secondheader {
+    height: 36px;
+     background-color: var(--brand-color);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: x-large;
+ }
+
+ .navbar {
+     display: flex;
+     
+ }
+
+ .nav-menu {
+     display: flex;
+     gap: 30px;
+ }
+
+ li {
+     display: flex;
+     list-style: none;
+     text-align: center;
+ }
+
+ a {
+     text-decoration: none;
+     color: var(--light-color);
+ }
+
+  #burgermenu {
+     display: none;
+     cursor: pointer;
+ } 
+
+ .bar {
+    display: block;
+     width: 25px;
+     height: 3px;
+     margin: 5px auto;
+     -webkit-transition: all 0.3s ease-in-out;
+     transition: all 0.3s ease-in-out;
+     background-color:var(--light-color);
+ }
 
 
+ a:hover {
+     color: var(--mid-color);
+     transition: 500ms;
 
+ }
 
-a:hover {
-color: var(--mid-color);
-transition: 500ms; 
+ @media screen and (max-width: 768px) {
+     .topheader {
+         display: flex;
+         justify-content: center;
+         background-color: var(--mid-color);
+         gap: 5em;
+     }
+     
 
-}
-
-@media screen and (max-width: 600px) {
-    .topheader {
+     #burgermenu{
+        cursor: pointer;
+        display: block;
+     }
+     #burgermenu.active .bar:nth-child(2){
+        opacity: 0;
+     }
+     
+     #burgermenu.active .bar:nth-child(1){
+        transform: translate(0px) rotate(-45deg);
+     }
+     
+     #burgermenu.active .bar:nth-child(3){
+        transform: translate(0px) rotate(45deg);
+     }
+     .nav-menu{
         display: flex;
-       justify-content: center;
-        background-color: var(--mid-color);
-        gap: 10em;
-}
+        width: 100%;
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: var(--brand-color);
+        width: 100%;
+        text-align: center;
+        transition: 500ms;
+     }
+     .nav-item{
+        margin :16px 0;
 
-    .logoes {
-        
-        color: var(--light-color);
-        font-size: xx-large;
-    
-    }
-}
+     }
+
+     .nav-menu.active{
+        left: 0;
+     }
+     
+ }

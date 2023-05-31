@@ -19,9 +19,18 @@
         <i class="logoes fa-solid fa-car-rear"></i>
     </header>
     <header class="secondheader">
-        <a href="trackrace.html">Track Race </a>
-        <a href="2wheels.html">2Wheels</a>
-        <a href="monstertruck.html">Monstertruck</a>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item"><a class="secondheader__menu-link" href="trackrace.html">Track Race </a></li>
+                <li class="nav-item"><a class="secondheader__menu-link" href="2wheels.html">2Wheels</a></li>
+                <li class="nav-item"><a class="secondheader__menu-link" href="monstertruck.html">Monstertruck</a></li>
+            </ul>
+            <div id="burgermenu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
     </header>
     <main class="game-container">
         <iframe src="https://1000webgames.com/games/m-acceleration/webgl/" frameborder="0" width="920" height="530"
@@ -29,15 +38,16 @@
         <div class="game-description">
             <div>
                 <p>
-                    <b>Description:</b> Take a part in a car racing championship. Drive as fast as you can to beat all
+                    <b> <span class="game__description-text">Description:</span></b> Take a part in a car racing championship. Drive as fast as you can to beat all
                     the opponents and earn money for purchasing faster cars.
                 </p>
-                <p><b>Controls:</b>
+                <p> <span class="game__description-text"><b>Controls:</span></b>
                     Use arrow keys or W,A,S,D to drive. Spacebar - handbrake.
                 </p>
             </div>
         </div>
     </main>
+    <script src="assets/scripts/burgermenu.js" defer></script>
 </body>
 
 </html>

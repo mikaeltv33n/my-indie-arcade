@@ -19,9 +19,18 @@
         <i class="logoes fa-solid fa-car-rear"></i>
     </header>
     <header class="secondheader">
-        <a href="trackrace.html">Track Race </a>
-        <a href="2wheels.html">2Wheels</a>
-        <a href="monstertruck.html">Monstertruck</a>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item"><a class="secondheader__menu-link" href="trackrace.html">Track Race </a></li>
+                <li class="nav-item"><a class="secondheader__menu-link" href="2wheels.html">2Wheels</a></li>
+                <li class="nav-item"><a class="secondheader__menu-link" href="monstertruck.html">Monstertruck</a></li>
+            </ul>
+            <div id="burgermenu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
     </header>
     <main class="game-container">
         <iframe src="https://1000webgames.com/games/hardwheelswinter/html5/" frameborder="0" width="920" height="530"
@@ -29,16 +38,18 @@
         <div class="game-description">
             <div>
                 <p>
-                    <b>Description:</b> Drive a monster truck and pass many challenging obstacles in Hard Wheels Winter.
+                    <b><span class="game__description-text"> Description:</span></b> Drive a monster truck and pass many challenging obstacles in Hard Wheels Winter.
                     Balance the heavy vehicle while driving over snowy mountains and other cars.
                 </p>
-                <p><b>Controls:</b>
+                <p>
+                    <b><span class="game__description-text">Controls:</span></b>
                     Desktop: Arrow keys or W,A,S,D to control the monster truck. <br>
                     Mobile: Use on-screen buttons to drive.
                 </p>
             </div>
         </div>
     </main>
+    <script src="assets/scripts/burgermenu.js" defer></script>
 </body>
 
 </html>

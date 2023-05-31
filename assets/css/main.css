@@ -1,3 +1,7 @@
+body{
+background-color: var(--dark-color);
+}
+
 .racepics {
     display: block;
     margin: auto;
@@ -22,8 +26,8 @@ h1{
 
 .box {
     display: flex;
-    background-color: var(--mid-color);
-    color: white;
+    background-color: var(--light-color);
+    color: var(--dark-color);
     gap: 5rem;
 }
 
@@ -35,7 +39,9 @@ p {
 }
 
 
-
+.game__description-text{
+    padding: 6px; 
+}
 
 .box__textLeft {
     padding: 30px;

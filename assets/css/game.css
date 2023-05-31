@@ -34,7 +34,12 @@
 }
 .game-description p{
 font-size: large;
+}
 
-
-} 
+.game__description-text{
+    font-weight: 800;
+    font-style:italic;
+    margin-right:0.5em;
+   
+}
 

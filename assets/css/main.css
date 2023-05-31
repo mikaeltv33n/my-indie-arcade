@@ -3,7 +3,7 @@ background-color: var(--dark-color);
 }
 
 .racepics {
-    display: block;
+    display: block; 
     margin: auto;
     height: 100%;
     width: 100%;
@@ -39,9 +39,7 @@ p {
 }
 
 
-.game__description-text{
-    padding: 6px; 
-}
+
 
 .box__textLeft {
     padding: 30px;
@@ -60,4 +58,14 @@ p {
     letter-spacing: 4px;
     line-height: 40px;
     font-size: medium;
+}
+
+
+@media screen and (max-width: 768px) {
+    .racepics{
+        display: flex;
+        
+    }
+
+
 }

@@ -92,7 +92,7 @@ padding: 10px 0;
     .carousel {
         position: relative;
         height: 600px;
-        width: 100%;
+        width: 80%;
         margin: auto;
     
     }
@@ -103,15 +103,17 @@ padding: 10px 0;
         height: 100%;
       object-fit: contain;
     }
+    
 
     .carousel__button--left {
-        display: none;
+        left: -30px;
     
     }
     
     .carousel__button--right {
-        display: none;
+        right: -30px;
     
     }
+
     
 }

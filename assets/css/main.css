@@ -1,5 +1,4 @@
  body {
-    display: flex;
      background-color: var(--dark-color);
  }
 
@@ -68,16 +67,6 @@
 
  @media screen and (max-width: 768px) {
 
-    
-    iframe{
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0
-    }
-
-
     .box{
         flex-direction: column;
     }
@@ -94,17 +83,4 @@
 
  }
 
- @media (orientation: landscape) {
-    body {
-       
-      flex-direction: row;
-    }
-  }
-  
-  @media (orientation: portrait) {
-    body {
-        
-      flex-direction: column;
-    }
  
-  }

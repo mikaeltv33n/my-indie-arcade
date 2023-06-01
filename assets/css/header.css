@@ -1,4 +1,5 @@
  .topheader {
+    padding-top: 5px;  
      background-color: var(--mid-color);
      display: flex;
      justify-content: space-around;
@@ -69,13 +70,13 @@
  }
 
  @media screen and (max-width: 768px) {
-     .topheader {
-         display: flex;
+     .topheader { 
          justify-content: center;
-         background-color: var(--mid-color);
          gap: 5em;
      }
      
+
+
 
      #burgermenu{
         cursor: pointer;

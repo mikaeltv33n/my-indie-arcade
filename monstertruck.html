@@ -33,12 +33,16 @@
         </nav>
     </header>
     <main class="game-container">
-        <iframe src="https://1000webgames.com/games/hardwheelswinter/html5/" frameborder="0" width="920" height="530"
-            scrolling="no"></iframe>
+        <iframe class="game-in-full" id="game-in-full" src="https://1000webgames.com/games/hardwheelswinter/html5/"
+        frameborder="0" width="920" height="530" scrolling="no"></iframe>
         <div class="game-description">
+            <button id="btn">
+                Go Fullscreen
+            </button>
             <div>
                 <p>
-                    <span class="game__description-text"> Description:</span> Drive a monster truck and pass many challenging obstacles in Hard Wheels Winter.
+                    <span class="game__description-text"> Description:</span> Drive a monster truck and pass many
+                    challenging obstacles in Hard Wheels Winter.
                     Balance the heavy vehicle while driving over snowy mountains and other cars.
                 </p>
                 <p>
@@ -49,6 +53,7 @@
             </div>
         </div>
     </main>
+    <script src="assets/scripts/fullscreen.js" defer></script>
     <script src="assets/scripts/burgermenu.js" defer></script>
 </body>
 

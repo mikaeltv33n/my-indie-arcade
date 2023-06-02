@@ -37,6 +37,7 @@ font-size: large;
 }
 
 .game__description-text{
+    display: flex;
     font-weight: 800;
     font-style:italic;
     margin-right:0.5em;
@@ -56,5 +57,9 @@ font-size: large;
     padding: 15px;
 }
 
-
+@media screen and (max-width: 768px) {
+    .game-description{
+        flex-wrap: wrap;
+    }
+}
 

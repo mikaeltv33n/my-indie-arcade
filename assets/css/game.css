@@ -45,7 +45,16 @@ font-size: large;
 
 
 
-
+#btn{
+    cursor: pointer;
+    background-color: var(--dark-color);
+    color: var(--brand-color);
+    height: fit-content;
+    margin: 20px;
+    border-radius: 1em;
+    font-size: smaller;
+    padding: 15px;
+}
 
 
 

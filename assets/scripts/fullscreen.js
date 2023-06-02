@@ -15,26 +15,12 @@ button.addEventListener("click", function () {
         else if(myDocument.webkitRequestFullscreen){
             myDocument.webkitRequestFullscreen()
         }
-
-        button.textContent = " Exit Fullscreen"
+        
+        
     }
-
+    
     else{
-        if(document.exitFullscreen){
-            document.exitFullscreen()
-        }
-        else if(document.msexitFullscreen){
-            document.msexitFullscreen()
-        }
-
-        else if (document.mozexitFullscreen){
-            document.mozexitFullscreen()
-        }
-
-        else if (document.webkitexitFullscreen){
-            document.webkitexitFullscreen()
-        }
-
-            button.textContent = "Go Fullscreen"
+        
+        button.textContent = "Go Fullscreen"
     }
 })

@@ -33,9 +33,12 @@
         </nav>
     </header>
     <main class="game-container">
-        <iframe src="https://1000webgames.com/games/m-acceleration/webgl/" frameborder="0" width="920" height="530"
+        <iframe id="game-fullscreen" src="https://1000webgames.com/games/m-acceleration/webgl/" frameborder="0" width="920" height="530"
             scrolling="no"></iframe>
         <div class="game-description">
+            <button id="btn">
+                Fullscreen
+            </button>
             <div>
                 <p>
                     <span class="game__description-text">Description:</span> Take a part in a car racing championship.
@@ -49,6 +52,7 @@
             </div>
         </div>
     </main>
+    <script src="assets/scripts/fullscreen.js" defer></script>
     <script src="assets/scripts/burgermenu.js" defer></script>
 </body>
 

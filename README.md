@@ -23,5 +23,7 @@
 #### you can find the styleguide design on my figma 
 https://www.figma.com/file/Eqsq0RdXFf4UmKNt8nwIMC/my-arcade-site?type=design&node-id=0-1&t=tI6kOaJwiZYsDW1u-0
 
+#### github page 
+https://mikaeltv33n.github.io/my-indie-arcade/index.html
 
 

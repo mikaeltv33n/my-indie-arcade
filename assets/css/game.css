@@ -46,14 +46,6 @@ font-size: large;
 
 
 
-.game-in-full:-ms-fullscreen{
-visibility: visible;
-}
-
-.game-in-full:fullscreen{
-    width: 100vw;
-    height: 100vh;    
-}
 
 
 

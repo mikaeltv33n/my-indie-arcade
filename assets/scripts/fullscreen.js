@@ -1,4 +1,4 @@
-let myDocument = document.documentElement
+let myDocument = document.querySelector("#game-fullscreen")
 let button = document.querySelector("#btn")
 
 button.addEventListener("click", function () {
@@ -35,7 +35,6 @@ button.addEventListener("click", function () {
             document.webkitexitFullscreen()
         }
 
-
-        button.textContent = "Go Fullscreen"
+            button.textContent = "Go Fullscreen"
     }
 })
